@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <div class="container" id="top">
+        <!-- <div class="header-div"> -->
+            <video autoplay muted loop id="myVideo" width="100vw">
+                <source src="gallery/globeVideo.mp4" type="video/mp4">
+            </video>
+
+            <header>
+                <div class="header-group">
+                    <div class="modeToggler">
+                        <button id="modeToggle"><i class="fa-solid fa-toggle-off"></i></button>
+                    </div>
+
+                    <div class="title">
+                        <h1 class="uppercase">WORLD COUNTRIES LIST</h1>
+                    </div>
+    
+                    <div class="header-description">
+                        <h4>Total number of countries: <span class="totalCountries">249</span></h4>
+                        <h4>Countries starting with <span class="startingWith">search word</span> are <span class="startingWithNum">0</span></h4>
+                    </div>
+    
+                    <div class="btn-group">
+                        <button id="startingWord" class="uppercase">Starting Word</button>
+                        <button id="searchWord" class="uppercase" >Search With Any Word</button>
+                        <button id="sorter" class="uppercase"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+                    </div>
+    
+                    <div class="search">
+                        <input type="text" placeholder="Search country" id="searchCountries" style="color: black">
+                        <span id="searchIcons"><i class="fa-solid fa-magnifying-glass" id="search"></i></span>
+                    </div>
+    
+                </div>
+            </header>
+            
+        </div>
+        <div class="country-container">
+            
+        </div>
+
+
+        <!-- back to top -->
+        <a href="#top" class="backToTop"><i class="fa-solid fa-arrow-up-short-wide"></i></a>
+
+        <footer>
+            <div class="title">
+                <h1 class="uppercase">WORLD COUNTRIES LIST</h1>
+            </div>
+            <div class="licence">
+                <h3>Group One &copy;2022</h3>
+            </div>
+        </footer>
+
+    </div>
+
+    
+</body>
+<script  src="main.js" type="module"></script>
+<script src="https://kit.fontawesome.com/e826019b0e.js" crossorigin="anonymous"></script>
+</html>
